@@ -154,7 +154,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 12px;
 }
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: #d43076;
+  color: #303bd4;
 }
 .navbar .dropdown:hover > ul {
   opacity: 1;
@@ -303,7 +303,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero .btn-get-started:hover {
   padding-top: 10px;
-  color: #d43076;
+  color: #60cc21;
 }
 @media (min-width: 1024px) {
   #hero {
@@ -744,14 +744,15 @@ section {
   padding-top: 40px;
 }
 .portfolio-details .portfolio-details-slider img {
-  width: 100%;
+  width: 60%;
+  height: 60%;
 }
 .portfolio-details .portfolio-details-slider .swiper-pagination {
-  margin-top: 20px;
+  margin-top: 15px;
   position: relative;
 }
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
-  width: 12px;
+  width: 10px;
   height: 12px;
   background-color: #fff;
   opacity: 1;
