@@ -115,7 +115,7 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
-  font-size: 14px;
+  font-size: 20px;
   color: #2c4964;
   white-space: nowrap;
   transition: 0.3s;
@@ -276,8 +276,8 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 90vh;
-  background: url("../img/DSC00935.JPG") center; /* deze foto nog vervangen*/
+  height: 99vh;
+  background: url("../img/DSC02151.JPG") top; /* deze foto nog vervangen*/
   background-size: cover;
   padding: 0 15px;
 }
@@ -303,7 +303,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero .btn-get-started:hover {
   padding-top: 10px;
-  color: #60cc21;
+  color: #2c4964;
 }
 @media (min-width: 1024px) {
   #hero {
@@ -570,6 +570,7 @@ section {
   text-align: center;
   z-index: 1;
 }
+
 .services .icon-box::before {
   content: "";
   position: absolute;
@@ -580,6 +581,7 @@ section {
   transition: ease-in-out 0.3s;
   z-index: -1;
 }
+
 .services .icon-box:hover::before {
   background: #d43076;
   height: 100%;
@@ -744,8 +746,11 @@ section {
   padding-top: 40px;
 }
 .portfolio-details .portfolio-details-slider img {
-  width: 60%;
-  height: 60%;
+  width: 80%;
+  height: 80%;
+  margin-left: 10%;
+  margin-right: 20%;
+  margin-bottom: 35px;
 }
 .portfolio-details .portfolio-details-slider .swiper-pagination {
   margin-top: 15px;
